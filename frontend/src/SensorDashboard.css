@@ -1,0 +1,29 @@
+.sensor-dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.sensor-card {
+  background-color: #d2e3f1;
+  border: 1px solid #ce2727;
+  border-radius: 8px;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(19, 125, 200, 0.1);
+}
+
+.sensor-card h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.sensor-card p {
+  margin: 10px 0 0;
+  font-size: 24px;
+  color: #555;
+}
