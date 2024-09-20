@@ -1,6 +1,6 @@
-# sports-score-app
+# real-time-monitoring-tool
 
-### A real time sports score app.
+### A real time monitoring tool.
 
 ## backend
 #### An Express.js backend application which acts as a WebSockets server and Kafka consumer. It consumes the Kafka events received from the Python service (Kafka producer) and send those events to the WebSocket clients.
@@ -13,7 +13,7 @@
 - README.md
 
 ## frontend
-####  A ReactJS + Vite application which uses WebSocket to listen to the score messages sent from the backend server and show the live scores on the UI.
+####  A ReactJS + Vite application which uses WebSocket to listen to the score messages sent from the backend server and show the live statistics on the UI.
 
 - public
   - vite.svg
